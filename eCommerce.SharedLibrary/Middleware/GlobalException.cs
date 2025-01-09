@@ -11,7 +11,7 @@ namespace eCommerce.SharedLibrary.Middleware
         public async Task InvokeAsync(HttpContext context)
         {
             // Declare default variables for error response
-            string message = "Sorry, internal server error occurred. Kindly";
+            string message = "Sorry, internal server error occurred. Kindly try again.";
             int statusCode = (int)HttpStatusCode.InternalServerError;
             string title = "Error";
             try
