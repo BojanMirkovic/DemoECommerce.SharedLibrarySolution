@@ -1,4 +1,4 @@
-﻿using eCommerce.SharedLibrary.ResponseFolder;
+﻿using eCommerce.SharedLibrary.Responses;
 using System.Linq.Expressions;
 
 namespace eCommerce.SharedLibrary.Interface
