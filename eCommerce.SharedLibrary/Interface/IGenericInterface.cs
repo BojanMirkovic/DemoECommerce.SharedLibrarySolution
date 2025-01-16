@@ -10,6 +10,6 @@ namespace eCommerce.SharedLibrary.Interface
         Task<Response> DeleteAsync(T entity);
         Task<IEnumerable<T>> GetaAllAsync();
         Task<T?>FindByIdAsync(int id);
-        Task<T> GetByAsync(Expression<Func<T, bool>> predicate);
+        Task<T?> GetByAsync(Expression<Func<T, bool>> predicate);
     }
 }
