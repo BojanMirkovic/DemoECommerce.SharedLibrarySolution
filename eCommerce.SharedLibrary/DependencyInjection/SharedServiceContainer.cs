@@ -54,7 +54,7 @@ namespace eCommerce.SharedLibrary.DependencyInjection
             // Add custom middleware to restrict access to only API Gateway calls.
             // This middleware blocks unauthorized calls from external sources.
 
-            //app.UseMiddleware<ListenToOnlyApiGateway>();// comment until we build Api Gateway
+            app.UseMiddleware<ListenToOnlyApiGateway>();// comment until we build Api Gateway
 
             return app;  // Return the IApplicationBuilder for method chaining.
         }
